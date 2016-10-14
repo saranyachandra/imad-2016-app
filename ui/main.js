@@ -10,7 +10,7 @@ function moveRight(){
     
     marginLeft=marginLeft +10;
     img.marginLeft=marginLeft + "px";
-}
+};
 img.onclick=function(){
     var interval=setInterval(moveRight,100);
    
